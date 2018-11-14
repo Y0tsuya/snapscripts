@@ -106,13 +106,13 @@ namespace sendmail {
 			if (subject == "") errorInput = true;
 
 			if (errorInput) {
-				Console.WriteLine("sendmail v2.0 - (C)2010-2018 Bo-Yi Lin");
+				Console.WriteLine("sendmail v2.0 - (C)2010-2018 Y0tsuya");
 				Console.WriteLine("senmail -server [server] -from [sender] -to [recipient] -subject [subject] -body [message] -attach [attachment] -type [MIME]");
 				Console.WriteLine("-server: SMTP server");
 				Console.WriteLine("-from: sender email");
 				Console.WriteLine("-to: recipient email");
 				Console.WriteLine("-subject: email subject");
-				Console.WriteLine("-body: optioal message body");
+				Console.WriteLine("-body: optional message body");
 				Console.WriteLine("-attach: optional file attachment");
 				Console.WriteLine("-type: file attachment MIME type");
 				Environment.Exit(1);
